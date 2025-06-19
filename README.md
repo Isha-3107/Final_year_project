@@ -1,6 +1,6 @@
 # Sign Language Recognition and Translation using Kinect Sensor
 
-Using Kinect Sensor Version-1 
+Using Kinect Sensor Version 1 
 
 ---
 ## Steps to follow:
@@ -11,11 +11,19 @@ Using Kinect Sensor Version-1
 
 - Install [Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/)
 
-- In VSCode, creating virtual environment: 
+- In VSCode, creating a virtual environment: 
     `python -m venv myenv`
 - If you are in cmd: `myenv\Scripts\activate.bat`
-- If you are in powershell: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and `.\myenv\Scripts\Activate.ps1`
-- Virtual environment creation and activation done!
-- `pip install moviepy==1.0.3` 
-- `pip install -r requirements.txt`
-- `python newapp.py`
+- If you are in PowerShell: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and `.\myenv\Scripts\Activate.ps1`
+- Virtual environment creation and activation done! 
+- Download necessary libraries:
+```bash
+pip install moviepy==1.0.3 
+pip install -r requirements.txt
+python newapp.py
+```
+- Set up Visual Studio Community 2022
+- Create new project:
+  Select WPF application with *C#* *Windows* *Desktop* 
+- Paste .xaml and .cs files from the repository.
+- Add references for C#, Kinect, JSON, XAML, and start the project.
