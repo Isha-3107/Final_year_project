@@ -27,6 +27,7 @@ python newapp.py
   Select WPF application with *C#* *Windows* *Desktop* 
 - Paste .xaml and .cs files from the repository.
 - Add references for C#, Kinect, JSON, XAML, and start the project.
----
-*You can add more gesture videos in gesture_videos folder and map them accordingly.
+- You can add more gesture videos in gesture_videos folder and map them accordingly.
 [Sign language videos](https://www.signbsl.com/)
+---
+### Connect Kinect Sensor to your system and that's it!!
