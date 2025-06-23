@@ -15,7 +15,8 @@ Using Kinect Sensor Version 1
     `python -m venv myenv`
 - If you are in cmd: `myenv\Scripts\activate.bat`
 - If you are in PowerShell: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and `.\myenv\Scripts\Activate.ps1`
-- Virtual environment creation and activation done! 
+- Virtual environment creation and activation done!
+- Make sure you are in python version 3.12.0 or above.
 - Download necessary libraries:
 ```bash
 pip install moviepy==1.0.3 
